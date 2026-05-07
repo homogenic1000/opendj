@@ -8,6 +8,58 @@ body {
     );
 }
 
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+header nav li {
+    list-style: none;
+}
+
+/* HERO SECTION */
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#odj-start {
+    width: 80%;
+}
+
+/* ODJ 1*/
+
+#ODJ-1 {
+    display: flex;
+    flex-direction: columns;
+    height: 100%;
+}
+#ODJ-1 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+#odj-img{
+    height: 10%;
+}
+
 /* CSS poru le tableau du footer*/
 .tg {
     border-collapse: collapse;

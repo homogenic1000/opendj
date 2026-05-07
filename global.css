@@ -1,3 +1,69 @@
 :root {
-    --main-color-: #63d782;
+    --main-color: #63d782;
+}
+
+@font-face {
+    font-family: "Overused Grotesk";
+    src: url("https://raw.githubusercontent.com/RandomMaerks/Overused-Grotesk/master/fonts/variable/OverusedGrotesk-VF.ttf")
+        format("woff2-variations");
+}
+
+/* General text styling */
+body {
+    font-family: "Overused Grotesk", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+}
+
+/* Heading styles */
+h1 {
+    font-family: "Overused Grotesk";
+    font-weight: 500; /* Medium */
+    font-size: 96px;
+}
+
+h2 {
+    font-family: "Overused Grotesk";
+    font-weight: 500; /* Medium */
+    font-size: 64px;
+}
+
+h3 {
+    font-family: "Overused Grotesk";
+    font-weight: 400; /* Regular */
+    font-size: 48px;
+}
+
+button{
+    font-family: "Overused Grotesk";
+    font-weight: 400; /* Regular */
+    font-size: 18px;
+    padding: 8px 18px 8px 18px;
+    
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.button-white {
+    background-color: white;
+    color: var(--main-color);
+    border: none;
+    border-radius: 7px;
+}
+.button-green {
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+.button-black {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 7px;
 }
