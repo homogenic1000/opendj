@@ -1,4 +1,15 @@
-/ .tg {
+body {
+    margin: 0;
+    background: linear-gradient(
+        180deg,
+        #dfffe8 0%,
+        #beffd0 56.73%,
+        #60c67b 95.19%
+    );
+}
+
+/* CSS poru le tableau du footer*/
+.tg {
     border-collapse: collapse;
     border-spacing: 0;
 }
