@@ -6,6 +6,7 @@
         <title>Document</title>
         <link rel="stylesheet" href="global.css">
         <link rel="stylesheet" href="styles.css">
+        <script src="sticky.js"></script>
     </head>
     <body>
         <header>
@@ -18,57 +19,72 @@
             </nav>
             <img src="/assets/svg/github.svg" alt="">
         </header>
-        <section id="hero-section">
+        <section class="normal-section"  id="hero-section">
+            <div id="hero-text">
             <h1>Pour une fête libre</h1>
             <p>
                 OpenDJ ren le Djing accesible à tous. Du firmware au circuit
                 imprimé, tout est open-source, réparable et documenté
             </p>
+            </div>
             <div class="button-container">
                 <button class="button-green">ODJ-1</button>
-                <button class="button-blackp∏∏">Github</button>
+                <button class="button-black">Github</button>
             </div>
             <img id="odj-hero" src="assets/images/odj-start.png" alt="">
         </section>
-        <section id="ODJ-1">
-            <div>
+        <section class="normal-section" id="ODJ-1">
+            <div id="ODJ-TEXT">
                 <h1>ODJ-1</h1>
-                <h2>Le premier système DJ 100% open-source</h2>
+                <h3>Le premier système DJ 100% open-source</h3>
+            </div>
+            <div id="odj-spec">
+                <img id="odj-img"src="assets/images/odj.png" alt="" />
+                <div id="text-spec">
+                    <h3 class="bold-h3">Jog Wheel with 4096pts of Res</h3>
+                    <h3 class="bold-h3">StarFive @ 1.5GHz</h3>
+                    <h3 class="bold-h">Écran OLED</h3>
+                    <h3 class="bold-h3">PCM5242 96KHz</h3>
+                    <h3 class="bold-h3">WAV 32bit</h3>
+                    <h3 class="bold-h3">8GB DDR5</h3>
+                </div>
             </div>
 
-            <img id="odj-img"src="assets/images/odj-start.png" alt="" />
-
         </section>
-        <section id="ODJ-spec">
-            <img id="ODJ-analyze" src="" alt="" />
-            <img id="build-root" src="" alt="" />
-            <p>
-                Build Root est le système d'explotation sur lequel repose
-                l'ODJ-1. Il offre des performances excellentes et laisse la
-                puissance de calcul pour la fête.
-            </p>
-            <span>Jusqu'à 20x plus rappides que sur un CDJ-3000x</span>
+            <section id="dive-in">
+            <img id="ODJ-analyze" src="/assets/images/analyze.png" alt="" />
+            <div id="dive-in-text">
+                <div id="top-text">
+                    <img id="starfive-img" src="/assets/images/starfive.png" alt="" />
+                        <h3>
+                            Le StarFive offre une puissance inédite de calcule pour analyser vos libraries entières à la vitesse de la lumières
+                        </h3>
+                    </div>
+                    <h4 class="gradient-text">Jusqu'à 20x plus rappides que sur un CDJ-3000x</h4>
+                </div>
+            </div>
         </section>
-        <section id="market-problem">
+        <section class="normal-section" id="market-problem">
             <h2>
-                <svg></svg>est née pour répodnre au problème hyper-capitaliste
+               <img id="logo-min" width="56" src="assets/svg/logo-min.svg" alt="">Open<span class="DJ-GREEN" >DJ</span>
+                est née pour répodnre au problème <br> hyper-capitaliste
                 dans le millieu de la fête
             </h2>
-            <p>AAlphaTheta détient plus de 60% du marché mondial, son SAV est coutêux, leur technologie propriétair empoissonne le millieu de la fête.</p>
+            <h4> <img id="alphateta" src="assets/images/alphateta.png" alt=""> détient plus de 60% du marché <br >mondial, son SAV est coutêux, leur technologie propriétaire <br> empoissonne le millieu de la fête.</h4>
         </section>
-        <section id="open-source">
+        <section class="normal-section" id="open-source">
             <h1>OpenDJ <3 Open-source</h1>
             <div id="container-open-source"></div>
             <h2>Plus de 500 contributeur·rice·s — développeur·euse·s, designer·euse·s, ingénieur·e·s du son et électronicien·ne·s.</h2>
             <button class="button-white">Contribuer</button>
             <button class="button-white">Documentation</button>
         </section>
-        <section>
+        <section class="normal-section" >
             <h1> Construit pour durer. <br> Conçu pour être réparé</h1>
             <p>OpenDJ est sous license GPLv3 construit par nos utilisateurs pour nos utilisateurs. Le ODJ-1 présente un scorte de 10/10 sur iFixit et dites bonjour au performences grâce au système embarqué avec Linux Root </p>
             <div id="icon-container"></div>
         </section>
-        <section id="join">
+        <section class="normal-section" id="join">
             <h1>Rejoins le mouvement</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.</p>
             <div class="button-container">

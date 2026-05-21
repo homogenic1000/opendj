@@ -16,11 +16,28 @@ body {
     color: #000;
 }
 
+.normal-section{
+margin-top: 4em;
+margin-bottom: 4em;
+padding-bottom: 2em;
+    
+}
+
+
+
+
+
 /* Heading styles */
+
+.bold-h3{
+    font-weight: 500;
+}
+
 h1 {
     font-family: "Overused Grotesk";
     font-weight: 500; /* Medium */
     font-size: 96px;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -31,8 +48,29 @@ h2 {
 
 h3 {
     font-family: "Overused Grotesk";
-    font-weight: 400; /* Regular */
+    font-weight: 500; /* Regular */
     font-size: 48px;
+}
+
+
+h4{
+    font-family: "Overused Grotesk";
+    font-weight: 400;
+    font-size: 40px;
+}
+
+h5{
+    font-family: "Overused Grotesk";
+    font-weight: 400;
+    font-size: 36px;
+}
+
+
+.gradient-text{
+    background: linear-gradient(88deg, #60C67B -10.4%, #5CFF88 94.14%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 button{
@@ -67,3 +105,5 @@ button{
     border: none;
     border-radius: 7px;
 }
+
+

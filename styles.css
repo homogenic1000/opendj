@@ -38,27 +38,121 @@ header nav li {
     align-items: center;
 }
 
+#hero-section h1{
+    margin-bottom: 0; 
+    margin;
+}
+
+#hero-section p{
+    margin-top: 0; 
+}
+
+
 #odj-start {
     width: 80%;
 }
 
+#hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0;
+    margin: 2em;
+}
+
 /* ODJ 1*/
+
 
 #ODJ-1 {
     display: flex;
-    flex-direction: columns;
-    height: 100%;
+    flex-direction: column;
+    align-items: center;
 }
-#ODJ-1 div {
+#ODJ-TEXT {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+}
+
+#ODJ-text h1, h3{
+    margin: 0;
+    align-items: center;
+
     
 }
+
 #odj-img{
-    height: 10%;
+    width: 40%;
+    margin-top: 4em;
 }
+
+
+/* ODJ SPEC*/
+
+#odj-spec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 4em;
+}
+
+#text-spec{
+    padding-top: 5em;
+}
+
+
+/* DIVE IN */
+
+
+#ODJ-analyze{
+    width: 150%;
+    height: 150%;
+    
+}
+
+#dive-in{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+#dive-in-text{
+    padding-top: 10.8em;
+    padding-right: 4em;
+}
+
+#top-text{
+    margin-bottom: 6em;
+}
+
+
+/*Market problem*/
+
+
+#market-problem {
+    text-align: center;
+    
+}
+
+#logo-min{
+    position: relative;
+    width: 56px;
+    top: 10px;
+    
+}
+
+#alphateta{
+    position: relative;
+    top: 6px;
+    width: 260px;
+}
+
+.DJ-GREEN{
+    color: var(--main-color);
+}
+
 
 /* CSS poru le tableau du footer*/
 .tg {
