@@ -10,6 +10,7 @@
 
 /* General text styling */
 body {
+    scroll-behavior: smooth;
     font-family: "Overused Grotesk", sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -57,12 +58,21 @@ h4{
     font-family: "Overused Grotesk";
     font-weight: 400;
     font-size: 40px;
+    line-height: 51px;
 }
 
 h5{
     font-family: "Overused Grotesk";
     font-weight: 400;
     font-size: 36px;
+}
+
+p{
+    font-size: 24px;
+}
+
+.justify-text{
+    max-width: 24em;
 }
 
 
@@ -77,7 +87,7 @@ button{
     font-family: "Overused Grotesk";
     font-weight: 400; /* Regular */
     font-size: 18px;
-    padding: 8px 18px 8px 18px;
+    padding: 12px 20px 12px 20px;
     
 }
 
@@ -85,6 +95,7 @@ button{
     display: flex;
     flex-direction: row;
     gap: 1em;
+    justify-content: center;
 }
 
 .button-white {

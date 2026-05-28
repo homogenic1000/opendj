@@ -35,12 +35,11 @@ header nav li {
 #hero-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }
 
 #hero-section h1{
     margin-bottom: 0; 
-    margin;
 }
 
 #hero-section p{
@@ -53,6 +52,7 @@ header nav li {
 }
 
 #hero-text{
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -132,6 +132,8 @@ header nav li {
 
 
 #market-problem {
+    margin-top: 12em;
+    margin-bottom: 12em;
     text-align: center;
     
 }
@@ -154,24 +156,145 @@ header nav li {
 }
 
 
+/* OPEN SOURCE*/
+
+#open-source{
+    margin-top: 12em;
+    margin-bottom: 14em;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5em;
+    background-color: #63D782 ;
+}
+
+#open-txt-btn h1{
+    padding-top: 6em;
+    margin: 0;
+}
+
+#open-txt-btn h1{
+    margin: 0;
+}
+
+#heart{
+    position: relative;
+    top: 10px;
+}
+
+
+#float-container{
+    position: relative;
+}
+
+#lea{
+    position: relative;
+    width: 11em;
+    top: 40em;
+    right: 10em;
+}
+
+#schad{
+   width: 9.2em;
+   top: 47em;
+   right: 49em;
+  
+   
+}
+
+#mai{
+    width: 12em;
+    top: 40em;
+    left: 35em
+}
+
+#roxane{
+   width: 8em;
+   top: 28em;
+   left: 50em;
+}
+
+#math{
+    width: 8em;
+    top: 35em;
+    right: 60em;
+}
+
+.dev{
+    position: relative;
+    width: 10em;
+    border-radius: 50em;
+    object-fit: contain;
+}
+
+
+/* OVERALL */
+
+#overall{
+    color: white;
+    text-align: center;
+}
+
+#icon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6em;
+    
+}
+
+.icon{
+
+width: 4em;
+    
+}
+
+#overall-p{
+    padding: 0 10em 0 10em;
+}
+
+
+#join{
+padding-left: 2em;
+color: white
+
+}
+
+footer{
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#newsletter{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
 /* CSS poru le tableau du footer*/
 .tg {
+    color: white;
     border-collapse: collapse;
     border-spacing: 0;
 }
 .tg td {
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 24px;
     overflow: hidden;
-    padding: 10px 5px;
+    padding: 1em 50px;
     word-break: normal;
 }
 .tg th {
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 24px;
     font-weight: normal;
     overflow: hidden;
-    padding: 10px 5px;
+    padding: 1em 50px;
     word-break: normal;
 }
 .tg .tg-0lax {
