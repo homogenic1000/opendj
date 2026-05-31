@@ -2,6 +2,8 @@
     --main-color: #63d782;
 }
 
+
+
 @font-face {
     font-family: "Overused Grotesk";
     src: url("https://raw.githubusercontent.com/RandomMaerks/Overused-Grotesk/master/fonts/variable/OverusedGrotesk-VF.ttf")
@@ -11,10 +13,26 @@
 /* General text styling */
 body {
     scroll-behavior: smooth;
+
     font-family: "Overused Grotesk", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #000;
+}
+
+
+.y-proximity-scroll-snapping{
+        scroll-snap-type: y mandatory;
+}
+
+
+#white-section{
+    color: white;
+}
+
+#black-section{
+    color: white;
+    background-color: black;
 }
 
 .normal-section {
@@ -102,6 +120,14 @@ button {
     border: none;
     border-radius: 7px;
 }
+
+.button-full-white{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 7px;
+}
+
 .button-green {
     background-color: var(--main-color);
     color: white;

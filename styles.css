@@ -76,7 +76,7 @@ header nav li {
 }
 
 #ODJ-text h1, h3{
-    margin: 0;
+    
     align-items: center;
 
     
@@ -191,15 +191,14 @@ header nav li {
 #lea{
     position: relative;
     width: 11em;
-    top: 40em;
-    right: 10em;
+    top: 39em;
+    right: 0em;
 }
 
 #schad{
    width: 9.2em;
-   top: 47em;
-   right: 49em;
-  
+   top: 50em;
+   right: 25em;
    
 }
 
@@ -217,8 +216,30 @@ header nav li {
 
 #math{
     width: 8em;
-    top: 35em;
-    right: 60em;
+    top: 40em;
+    right: 28em;
+}
+
+#maxou{
+
+    width: 8em;
+    top: -10em;
+    right: 0em;
+    
+}
+
+#sophie{
+
+    width: 14em;
+    top: 10em;
+    right: 39em;
+    
+}
+
+#marko{
+    width: 8em;
+    top: 0em;
+    right: 40em;
 }
 
 .dev{
@@ -232,6 +253,7 @@ header nav li {
 /* OVERALL */
 
 #overall{
+    padding: 4em 0 4em 0em;
     color: white;
     text-align: center;
 }
@@ -277,27 +299,63 @@ footer{
 
 
 /* CSS poru le tableau du footer*/
+
 .tg {
     color: white;
     border-collapse: collapse;
     border-spacing: 0;
+    line-height: 110%;
+    max-height: 45px !important;
+
+    
 }
 .tg td {
     font-family: Arial, sans-serif;
     font-size: 24px;
     overflow: hidden;
-    padding: 1em 50px;
+    padding: 0.6em 0.6em;
     word-break: normal;
+    max-height: 45px !important;
+    transition: 300ms color  ease-in-out;
+
+
 }
 .tg th {
     font-family: Arial, sans-serif;
     font-size: 24px;
     font-weight: normal;
     overflow: hidden;
-    padding: 1em 50px;
+    padding: 0.6em 0.6em;
     word-break: normal;
+    max-height: 45px !important;
+        text-align: left !important;
+        transition: 300ms color  ease-in-out;
+
 }
 .tg .tg-0lax {
     text-align: left;
     vertical-align: top;
+    max-height: 45px !important;
+    transition: 300ms color  ease-in-out;
+
 }
+
+td tg-0lax{
+    height: 45px;
+    max-height: 45px !important;
+    transition: 300ms color  ease-in-out;
+}
+
+.tg-left{
+
+    padding-left: 0 !important;
+    
+}
+
+td:hover, th:hover{
+
+    color: var(--main-color);
+    
+}
+
+
