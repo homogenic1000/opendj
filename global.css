@@ -17,20 +17,15 @@ body {
     color: #000;
 }
 
-.normal-section{
-margin-top: 4em;
-margin-bottom: 4em;
-padding-bottom: 2em;
-    
+.normal-section {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding-bottom: 2em;
 }
-
-
-
-
 
 /* Heading styles */
 
-.bold-h3{
+.bold-h3 {
     font-weight: 500;
 }
 
@@ -39,62 +34,65 @@ h1 {
     font-weight: 500; /* Medium */
     font-size: 96px;
     margin-bottom: 0;
+    line-height: 110%;
 }
 
 h2 {
     font-family: "Overused Grotesk";
     font-weight: 500; /* Medium */
     font-size: 64px;
+    line-height: 110%;
 }
 
 h3 {
     font-family: "Overused Grotesk";
     font-weight: 500; /* Regular */
     font-size: 48px;
+    line-height: 110%;
 }
 
-
-h4{
+h4 {
     font-family: "Overused Grotesk";
     font-weight: 400;
     font-size: 40px;
-    line-height: 51px;
+    line-height: 110%;
 }
 
-h5{
+h5 {
     font-family: "Overused Grotesk";
     font-weight: 400;
     font-size: 36px;
+    line-height: 110%;
 }
 
-p{
+p {
     font-size: 24px;
+    line-height: 110%;
 }
 
-.justify-text{
+.justify-text {
     max-width: 24em;
+    line-height: 110%;
 }
 
-
-.gradient-text{
-    background: linear-gradient(88deg, #60C67B -10.4%, #5CFF88 94.14%);
+.gradient-text {
+    background: linear-gradient(88deg, #60c67b -10.4%, #5cff88 94.14%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-button{
+button {
     font-family: "Overused Grotesk";
     font-weight: 400; /* Regular */
     font-size: 18px;
     padding: 12px 20px 12px 20px;
-    
 }
 
-.button-container{
+.button-container {
     display: flex;
     flex-direction: row;
-    gap: 1em;
+    gap: 0.5em;
     justify-content: center;
 }
 
@@ -117,4 +115,9 @@ button{
     border-radius: 7px;
 }
 
-
+.flex-start-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.5em;
+}
