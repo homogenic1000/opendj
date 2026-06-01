@@ -26,6 +26,19 @@ nav {
     gap: 1em;
 }
 
+li{
+    transition: 300ms color  ease-in-out;
+}
+
+
+li:hover{
+    cursor: pointer;
+    color: var(--main-color);
+    
+}
+
+
+
 header nav li {
     list-style: none;
 }
@@ -284,18 +297,25 @@ color: white
 }
 
 footer{
-    padding-bottom: 2em;
+    padding: 2em 2em 2em 2em;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #newsletter{
     color: white;
     display: flex;
     flex-direction: column;
+    gap: 0.8em;
+    
     
 }
+
+#newsletter p, h3{
+    margin: 0;
+}
+
 
 
 /* CSS poru le tableau du footer*/
@@ -343,7 +363,7 @@ footer{
 td tg-0lax{
     height: 45px;
     max-height: 45px !important;
-    transition: 300ms color  ease-in-out;
+    
 }
 
 .tg-left{
@@ -352,10 +372,34 @@ td tg-0lax{
     
 }
 
-td:hover, th:hover{
+.col p:hover{
 
     color: var(--main-color);
+    cursor: pointer;
     
 }
 
+.table{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
 
+.col  p{
+    transition: 300ms color  ease-in-out;
+    margin: 0;
+    padding: 1em 1em 0.2em 0.2em;
+}
+
+textarea{
+    max-width: 24em;
+    border-radius: 7px;
+    text-align: left;
+    align-content: center;
+    font-family: "Overused Grotesk";
+    font-size: 16px;
+    font-weight: 400;
+    overflow: hidden;
+    resize: none;
+    padding: 0 0 0 0.8em ;
+}
