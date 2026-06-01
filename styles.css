@@ -153,8 +153,9 @@ header nav li {
 
 #logo-min{
     position: relative;
-    width: 56px;
+    width: 0.6em;
     top: 10px;
+    padding-right: 0.1em;
     
 }
 
@@ -165,7 +166,7 @@ header nav li {
 }
 
 .DJ-GREEN{
-    color: var(--main-color);
+    color: white;
 }
 
 
