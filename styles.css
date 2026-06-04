@@ -45,6 +45,14 @@ header nav li {
 
 /* HERO SECTION */
 
+#app{
+    font-family: "Overused Grotesk";
+    font-weight: 500; /* Medium */
+    font-size: 96px;
+    margin-bottom: 0;
+    line-height: 110%;
+}
+
 #hero-section {
     display: flex;
     flex-direction: column;
