@@ -145,8 +145,8 @@ header nav li {
 
 
 #market-problem {
-    margin-top: 12em;
-    margin-bottom: 12em;
+    margin-top: 40em;
+    margin-bottom: 24em;
     text-align: center;
     
 }
@@ -173,7 +173,7 @@ header nav li {
 /* OPEN SOURCE*/
 
 #open-source{
-    margin-top: 12em;
+    margin-top: 24em;
     margin-bottom: 14em;
     color: white;
     text-align: center;
@@ -199,22 +199,34 @@ header nav li {
 
 
 #float-container{
-    position: relative;
+    padding-top: 340em;
+    position: absolute;
+    inset: 0;
+    pointer-events: none; /* les images ne bloquent pas les clics */
 }
 
-#lea{
-    position: relative;
-    width: 11em;
-    top: 39em;
-    right: 0em;
-}
+
 
 #schad{
    width: 9.2em;
-   top: 50em;
+   top: 20em;
    right: 25em;
    
 }
+
+#lea{
+    width: 11em;
+    top: 25em;
+    right: 10em;
+}
+
+#math{
+    width: 8em;
+    top: 30em;
+    right: 40em;
+}
+
+
 
 #mai{
     width: 12em;
@@ -228,11 +240,7 @@ header nav li {
    left: 50em;
 }
 
-#math{
-    width: 8em;
-    top: 40em;
-    right: 28em;
-}
+
 
 #maxou{
 
@@ -246,14 +254,14 @@ header nav li {
 
     width: 14em;
     top: 10em;
-    right: 39em;
+    right: 61em;
     
 }
 
 #marko{
     width: 8em;
     top: 0em;
-    right: 40em;
+    right: 38em;
 }
 
 .dev{
@@ -373,6 +381,11 @@ td tg-0lax{
     
 }
 
+.col{
+     max-height: 12em;
+     
+}
+
 .col p:hover{
 
     color: var(--main-color);
@@ -384,12 +397,14 @@ td tg-0lax{
     display: flex;
     flex-direction: row;
     text-align: left;
+    
 }
 
 .col  p{
     transition: 300ms color  ease-in-out;
     margin: 0;
     padding: 1em 1em 0.2em 0.2em;
+   
 }
 
 textarea{

@@ -1,25 +1,16 @@
-const steps = document.querySelectorAll(".step");
+var app = document.getElementById('app');
 
-const image = document.getElementById("ODJ-analyze")
-
-const title = document.querySelector("#top-text h3")
-
-const subtitle = document.querySelector(".gradient-text")
-
-const observer = new IntersectionObserver((entries) => {
-
-  entries.forEac((entry) => {
-
-    if (entry.isIntersecting) {
-      const step = entry.target;
-      image.src = step.dataset.img;
-      title.textContent = step.dataset.tiitle;
-
-      subtitle.textContent = step.dataset.subtitle
-    }
-  });
-}, {
-  threshold: 0.5
+var typewriter = new Typewriter(app, {
+  loop: true,
+  delay: 75,
 });
 
-steps.forEach((step) => osbserver.observe(step));
+typewriter
+  .pauseFor(2500)
+  .typeString('A simple yet powerful native javascript')
+  .pauseFor(300)
+  .deleteChars(10)
+  .typeString('<strong>JS</strong> plugin for a cool typewriter effect and ')
+  .typeString('<strong>only <span style="color: #27ae60;">5kb</span> Gzipped!</strong>')
+  .pauseFor(1000)
+  .start();
