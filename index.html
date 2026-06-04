@@ -6,6 +6,7 @@
         <title>OpenDJ</title>
         <link rel="stylesheet" href="global.css">
         <link rel="stylesheet" href="styles.css">
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
         <script src="sticky.js"></script>
     </head>
     <body>
@@ -22,9 +23,9 @@
         </header>
         <section class="normal-section"  id="hero-section">
             <div id="hero-text">
-            <h1>Pour une fête libre</h1>
+            <div id="app"></div>
             <p>
-                OpenDJ ren le Djing accesible à tous. Du firmware au circuit
+                OpenDJ rend le DJing accessible à tous. Du firmware au circuit
                 imprimé, tout est open-source, réparable et documenté
             </p>
             <div class="button-container">
@@ -32,7 +33,19 @@
                 <button class="button-full-white">Github</button>
             </div>
             </div>
-            <img id="odj-hero" src="assets/images/odj-start.png" alt="">
+            <video autoplay muted class="crop" id="wemb" src="assets/output.webm" alt="">
+            <script>
+                window.addEventListener('DOMContentLoaded', () => {
+                    const video = document.getElementById('webm');
+                    
+                    // Attendre 1000 millisecondes (1 seconde) avant de lancer
+                    setTimeout(() => {
+                        video.play().catch(error => {
+                            console.log("La lecture automatique a été bloquée par le navigateur :", error);
+                        });
+                    }, 1000); 
+                });
+            </script>
         </section>
         <section class="normal-section" id="ODJ-1">
             <div id="ODJ-TEXT">
@@ -57,10 +70,10 @@
                 <div id="top-text">
                     <img id="starfive-img" src="/assets/images/starfive.png" alt="" />
                         <h3>
-                            Le StarFive offre une puissance inédite de calcule pour analyser vos libraries entières à la vitesse de la lumières
+                            La StarFive offre une puissance de calcul inédite pour analyser vos librairies entières à la vitesse de la lumière
                         </h3>
                     </div>
-                    <h4 class="gradient-text">Jusqu'à 20x plus rappides que sur un CDJ-3000x</h4>
+                    <h4 class="gradient-text">Jusqu'à 20x plus rapides que sur un CDJ-3000x</h4>
                 </div>
             
         </section>
@@ -69,9 +82,9 @@
             <h2>
                <img id="logo-min"  src="assets/images/logo-min-wb.webp" alt="">Open<span class="DJ-GREEN" >DJ</span>
                 est née pour répondre au problème <br> hyper-capitaliste
-                dans le millieu de la fête
+                dans le milieu de la fête
             </h2>
-            <h4> <img id="alphateta" src="πassets/images/alphateta.png" alt=""> détient plus de 60% du marché <br >mondial, son SAV est coutêux, leur technologie <br> propriétaire  empoissonne le millieu de la fête.</h4>
+            <h4> <img id="alphateta" src="assets/images/alphateta.png" alt=""> détient plus de 60% du marché <br >mondial, son SAV est coûteux, leur technologie <br> propriétaire empoisonne le milieu de la fête.</h4>
         </section>
         <section class="normal-section" id="open-source">
             <div id="float-container">
@@ -98,7 +111,7 @@
         <section id="black-section">
         <section class="normal-section" id="overall">
             <h1> Construit pour durer. <br> Conçu pour être réparé</h1>
-            <h5 id="overall-p">OpenDJ est sous license GPLv3 construit par nos utilisateurs pour nos utilisateurs. Le ODJ-1 présente un scorte de 10/10 sur iFixit et dites bonjour au performences grâce au système embarqué avec Linux Root </h5>
+            <h5 id="overall-p">OpenDJ est sous license GPLv3 construit par nos utilisateurs pour nos utilisateurs. Le ODJ-1 présente un score de 10/10 sur iFixit et dites bonjour aux performances grâce au système embarqué avec Linux Root </h5>
             <div id="icon-container">
                 <img class="icon" src="assets/svg/ifixit.svg" alt="">
                 <img class="icon" src="assets/svg/linux.svg" alt="">
@@ -135,8 +148,8 @@
             <div id="newsletter">
                 <img width="400" src="assets/svg/logo4dark.svg" alt="">
                 <h3>Rejoins la newsletter</h3>
-                <p>Reste informé des dernières mise à jour, des avancées de OpenDJ <br>et encore plein d'autres choses super passionantes</p>
-                <textarea placeholder="Your email adress" name="your email adress" id="p"></textarea>
+                <p>Reste informé des dernières mises à jour, des avancées de OpenDJ <br>et encore plein d'autres choses super passionnantes</p>
+                <textarea placeholder="Your email address" name="your email address" id="p"></textarea>
                 
             </div>
         </footer>

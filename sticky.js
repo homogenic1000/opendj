@@ -1,25 +1,20 @@
-const steps = document.querySelectorAll(".step");
+document.addEventListener('DOMContentLoaded', () => {
+    var app = document.getElementById('app');
 
-const image = document.getElementById("ODJ-analyze")
+    var typewriter = new Typewriter(app, {
+        loop: true,
+        delay: 75
+    });
 
-const title = document.querySelector("#top-text h3")
-
-const subtitle = document.querySelector(".gradient-text")
-
-const observer = new IntersectionObserver((entries) => {
-
-  entries.forEac((entry) => {
-
-    if (entry.isIntersecting) {
-      const step = entry.target;
-      image.src = step.dataset.img;
-      title.textContent = step.dataset.tiitle;
-
-      subtitle.textContent = step.dataset.subtitle
-    }
-  });
-}, {
-  threshold: 0.5
+  typewriter
+    .pauseFor(1200)
+    .typeString('Pour une fête libre.')
+    .pauseFor(1900)
+    .deleteChars(7)
+    .typeString(' accessible.')
+    .pauseFor(1900)
+    .deleteChars(11)
+    .typeString(' meilleure.')
+    .pauseFor(1900)
+    .start();
 });
-
-steps.forEach((step) => osbserver.observe(step));
