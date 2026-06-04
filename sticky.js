@@ -9,12 +9,12 @@ document.addEventListener('DOMContentLoaded', () => {
   typewriter
     .pauseFor(1200)
     .typeString('Pour une fête libre.')
-    .pauseFor(1600)
+    .pauseFor(1900)
     .deleteChars(7)
     .typeString(' accessible.')
-    .pauseFor(1600)
+    .pauseFor(1900)
     .deleteChars(11)
     .typeString(' meilleure.')
-    .pauseFor(1600)
+    .pauseFor(1900)
     .start();
 });

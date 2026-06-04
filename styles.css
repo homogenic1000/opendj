@@ -53,6 +53,13 @@ header nav li {
     line-height: 110%;
 }
 
+.crop{
+    object-fit: cover;
+    
+
+    
+}
+
 #hero-section {
     display: flex;
     flex-direction: column;

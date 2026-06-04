@@ -33,7 +33,19 @@
                 <button class="button-full-white">Github</button>
             </div>
             </div>
-            <img id="odj-hero" src="assets/images/odj-start.png" alt="">
+            <video autoplay muted class="crop" id="wemb" src="assets/output.webm" alt="">
+            <script>
+                window.addEventListener('DOMContentLoaded', () => {
+                    const video = document.getElementById('webm');
+                    
+                    // Attendre 1000 millisecondes (1 seconde) avant de lancer
+                    setTimeout(() => {
+                        video.play().catch(error => {
+                            console.log("La lecture automatique a été bloquée par le navigateur :", error);
+                        });
+                    }, 1000); 
+                });
+            </script>
         </section>
         <section class="normal-section" id="ODJ-1">
             <div id="ODJ-TEXT">
