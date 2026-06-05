@@ -33,17 +33,16 @@
                 <button class="button-full-white">Github</button>
             </div>
             </div>
-            <video autoplay muted class="crop" id="wemb" src="assets/output.webm" alt="">
+            <video autoplay muted class="crop" id="webm" src="assets/output.webm" alt="">
             <script>
                 window.addEventListener('DOMContentLoaded', () => {
                     const video = document.getElementById('webm');
-                    
-                    // Attendre 1000 millisecondes (1 seconde) avant de lancer
                     setTimeout(() => {
                         video.play().catch(error => {
                             console.log("La lecture automatique a été bloquée par le navigateur :", error);
                         });
-                    }, 1000); 
+                        
+                    }, 2200); 
                 });
             </script>
         </section>

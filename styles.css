@@ -214,7 +214,8 @@ header nav li {
 
 
 #float-container{
-    padding-top: 340em;
+    padding-top: 290em;
+    padding-left: 8em;
     position: absolute;
     inset: 0;
     pointer-events: none; /* les images ne bloquent pas les clics */
@@ -434,3 +435,7 @@ textarea{
     resize: none;
     padding: 0 0 0 0.8em ;
 }
+
+
+
+
