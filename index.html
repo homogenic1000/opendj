@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="styles.css">
         <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
         <script src="sticky.js"></script>
+        <link rel="icon" href="assets/favicon.png">
     </head>
     <body>
         <section id="white-section">
@@ -33,13 +34,14 @@
                 <button class="button-full-white">Github</button>
             </div>
             </div>
-            <video autoplay muted class="crop" id="webm" src="assets/output.webm" alt="">
+            <video preload="metadatanop" autoplay muted class="crop" id="webm" src="assets/output.webm" alt="">
             <script>
                 window.addEventListener('DOMContentLoaded', () => {
                     const video = document.getElementById('webm');
                     setTimeout(() => {
+                        console.log("succes")
                         video.play().catch(error => {
-                            console.log("La lecture automatique a été bloquée par le navigateur :", error);
+                            console.log("Lecture bloquée:", error);
                         });
                         
                     }, 2200); 
@@ -86,7 +88,7 @@
             <h4> <img id="alphateta" src="assets/images/alphateta.png" alt=""> détient plus de 60% du marché <br >mondial, son SAV est coûteux, leur technologie <br> propriétaire empoisonne le milieu de la fête.</h4>
         </section>
         <section class="normal-section" id="open-source">
-            <div id="float-container">
+
                 <img id="lea" class="dev" src="assets/images/lea.webp" alt="">
                 <img id="roxane" class="dev" src="assets/images/roxane.webp" alt="">
                 <img id="mai" class="dev" src="assets/images/mai.webp" alt="">
@@ -97,7 +99,6 @@
                 <img id="maxou" class="dev" src="assets/images/maxou.webp" alt="">
 
 
-            </div>
             
             <div id="open-txt-btn">
                 <h2 >OpenDJ existe grâce à vous</h2>

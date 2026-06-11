@@ -30,6 +30,10 @@ li{
     transition: 300ms color  ease-in-out;
 }
 
+#github:hover{
+    cursor: pointer;
+}
+
 
 li:hover{
     cursor: pointer;
@@ -188,13 +192,13 @@ header nav li {
 /* OPEN SOURCE*/
 
 #open-source{
-    margin-top: 24em;
-    margin-bottom: 14em;
+    position: relative;
+    padding-top: 24em;
+    padding: 14em;
     color: white;
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding-bottom: 5em;
     background-color: #63D782 ;
 }
 
@@ -213,75 +217,66 @@ header nav li {
 }
 
 
-#float-container{
-    padding-top: 290em;
-    padding-left: 8em;
-    position: absolute;
-    inset: 0;
-    pointer-events: none; /* les images ne bloquent pas les clics */
-}
+
 
 
 
 #schad{
    width: 9.2em;
-   top: 20em;
-   right: 25em;
+   right: 8em;
+   top: 4em;
    
 }
 
 #lea{
     width: 11em;
-    top: 25em;
-    right: 10em;
+    top: 2em;
+    left: 5em;
 }
 
 #math{
+    top: 9em;
+    left: 18em;
     width: 8em;
-    top: 30em;
-    right: 40em;
 }
 
 
 
 #mai{
     width: 12em;
-    top: 40em;
-    left: 35em
+    right: 14em;
+    top: 34em;
 }
 
 #roxane{
    width: 8em;
-   top: 28em;
-   left: 50em;
+   top: 38em;
+   left: 18em;
 }
 
 
 
 #maxou{
-
     width: 8em;
-    top: -10em;
-    right: 0em;
+    right: 8em;
+    top: 44em;
     
 }
 
 #sophie{
-
+    left: 5em;
     width: 14em;
-    top: 10em;
-    right: 61em;
     
 }
 
 #marko{
     width: 8em;
-    top: 0em;
-    right: 38em;
+    right: 5em;
+    top: 32em;
 }
 
 .dev{
-    position: relative;
+    position: absolute;
     width: 10em;
     border-radius: 50em;
     object-fit: contain;
