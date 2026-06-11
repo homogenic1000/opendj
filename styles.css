@@ -27,21 +27,17 @@ nav {
 }
 
 li{
-    transition: 300ms color  ease-in-out;
+    transition: 300ms color ease-in-out;
 }
 
 #github:hover{
     cursor: pointer;
 }
 
-
 li:hover{
     cursor: pointer;
     color: var(--main-color);
-    
 }
-
-
 
 header nav li {
     list-style: none;
@@ -59,9 +55,6 @@ header nav li {
 
 .crop{
     object-fit: cover;
-    
-
-    
 }
 
 #hero-section {
@@ -92,8 +85,7 @@ header nav li {
     margin: 2em;
 }
 
-/* ODJ 1*/
-
+/* ODJ 1 */
 
 #ODJ-1 {
     display: flex;
@@ -107,20 +99,13 @@ header nav li {
     justify-content: space-evenly;
 }
 
-#ODJ-text h1, h3{
-    
-    align-items: center;
-
-    
-}
-
 #odj-img{
     width: 40%;
     margin-top: 4em;
 }
 
 
-/* ODJ SPEC*/
+/* ODJ SPEC */
 
 #odj-spec{
     display: flex;
@@ -136,18 +121,14 @@ header nav li {
 
 /* DIVE IN */
 
-
 #ODJ-analyze{
     width: 150%;
     height: 150%;
-    
 }
 
 #dive-in{
     display: flex;
     flex-direction: row;
-
-    
 }
 
 #dive-in-text{
@@ -160,14 +141,12 @@ header nav li {
 }
 
 
-/*Market problem*/
-
+/* Market problem */
 
 #market-problem {
     margin-top: 40em;
     margin-bottom: 24em;
     text-align: center;
-    
 }
 
 #logo-min{
@@ -175,7 +154,6 @@ header nav li {
     width: 0.6em;
     top: 10px;
     padding-right: 0.1em;
-    
 }
 
 #alphateta{
@@ -188,12 +166,10 @@ header nav li {
     color: white;
 }
 
-
-/* OPEN SOURCE*/
+/* OPEN SOURCE */
 
 #open-source{
     position: relative;
-    padding-top: 24em;
     padding: 14em;
     color: white;
     text-align: center;
@@ -207,25 +183,15 @@ header nav li {
     margin: 0;
 }
 
-#open-txt-btn h1{
-    margin: 0;
-}
-
 #heart{
     position: relative;
     top: 10px;
 }
 
-
-
-
-
-
 #schad{
    width: 9.2em;
    right: 8em;
    top: 4em;
-   
 }
 
 #lea{
@@ -240,8 +206,6 @@ header nav li {
     width: 8em;
 }
 
-
-
 #mai{
     width: 12em;
     right: 14em;
@@ -254,19 +218,15 @@ header nav li {
    left: 18em;
 }
 
-
-
 #maxou{
     width: 8em;
     right: 8em;
     top: 44em;
-    
 }
 
 #sophie{
     left: 5em;
     width: 14em;
-    
 }
 
 #marko{
@@ -282,7 +242,6 @@ header nav li {
     object-fit: contain;
 }
 
-
 /* OVERALL */
 
 #overall{
@@ -296,13 +255,10 @@ header nav li {
     flex-direction: row;
     justify-content: center;
     gap: 6em;
-    
 }
 
 .icon{
-
-width: 4em;
-    
+    width: 4em;
 }
 
 #overall-p{
@@ -311,9 +267,8 @@ width: 4em;
 
 
 #join{
-padding-left: 2em;
-color: white
-
+    padding-left: 2em;
+    color: white;
 }
 
 footer{
@@ -328,37 +283,28 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 0.8em;
-    
-    
 }
 
-#newsletter p, h3{
+#newsletter p, #newsletter h3{
     margin: 0;
 }
 
-
-
-/* CSS poru le tableau du footer*/
+/* CSS pour le tableau du footer */
 
 .tg {
     color: white;
     border-collapse: collapse;
     border-spacing: 0;
     line-height: 110%;
-    max-height: 45px !important;
-
-    
 }
+
 .tg td {
     font-family: Arial, sans-serif;
     font-size: 24px;
     overflow: hidden;
     padding: 0.6em 0.6em;
     word-break: normal;
-    max-height: 45px !important;
-    transition: 300ms color  ease-in-out;
-
-
+    transition: 300ms color ease-in-out;
 }
 .tg th {
     font-family: Arial, sans-serif;
@@ -367,55 +313,44 @@ footer{
     overflow: hidden;
     padding: 0.6em 0.6em;
     word-break: normal;
-    max-height: 45px !important;
-        text-align: left !important;
-        transition: 300ms color  ease-in-out;
-
+    text-align: left;
+    transition: 300ms color ease-in-out;
 }
+
 .tg .tg-0lax {
     text-align: left;
     vertical-align: top;
-    max-height: 45px !important;
-    transition: 300ms color  ease-in-out;
-
+    transition: 300ms color ease-in-out;
 }
 
-td tg-0lax{
+td.tg-0lax{
     height: 45px;
-    max-height: 45px !important;
-    
+    max-height: 45px;
 }
 
 .tg-left{
-
-    padding-left: 0 !important;
-    
+    padding-left: 0;
 }
 
 .col{
-     max-height: 12em;
-     
+    max-height: 12em;
 }
 
 .col p:hover{
-
     color: var(--main-color);
     cursor: pointer;
-    
 }
 
 .table{
     display: flex;
     flex-direction: row;
     text-align: left;
-    
 }
 
-.col  p{
-    transition: 300ms color  ease-in-out;
+.col p{
+    transition: 300ms color ease-in-out;
     margin: 0;
     padding: 1em 1em 0.2em 0.2em;
-   
 }
 
 textarea{
@@ -428,13 +363,12 @@ textarea{
     font-weight: 400;
     overflow: hidden;
     resize: none;
-    padding: 0 0 0 0.8em ;
+    padding: 0 0 0 0.8em;
 }
 
 #newsletter-button-container{
-    justify-content: stretch;
+    display: flex;
     gap: 0.5em;
-    padding: 0;
 }
 
 #newsletter-button-container textarea{
@@ -442,6 +376,192 @@ textarea{
     max-width: none;
 }
 
+/* ========== RESPONSIVE ========== */
 
+@media (max-width: 768px){
+    /* TYPOGRAPHY */
+    #app{
+        font-size: 48px;
+    }
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+    }
 
+    /* HEADER */
+    header{
+        margin-left: 1em;
+        margin-right: 1em;
+        flex-wrap: wrap;
+        gap: 0.5em;
+    }
+    header nav{
+        gap: 0.5em;
+        flex-wrap: wrap;
+    }
+    header nav li{
+        font-size: 14px;
+    }
+    #logo-header{
+        height: 36px;
+    }
 
+    /* HERO */
+    #hero-text{
+        margin: 1em;
+    }
+    .crop{
+        width: 100%;
+    }
+
+    /* ODJ-1 SPEC */
+    #odj-spec{
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+    #odj-img{
+        width: 80%;
+        margin: 2em auto 0;
+        display: block;
+    }
+    #text-spec{
+        padding-top: 0;
+        text-align: center;
+    }
+
+    /* DIVE-IN */
+    #dive-in{
+        flex-direction: column;
+        align-items: center;
+    }
+    #ODJ-analyze{
+        width: 100%;
+        height: auto;
+    }
+    #dive-in-text{
+        padding-top: 2em;
+        padding-right: 1em;
+        padding-left: 1em;
+        text-align: center;
+    }
+    #top-text{
+        margin-bottom: 2em;
+    }
+    #starfive-img{
+        max-width: 120px;
+        width: 40%;
+    }
+
+    /* MARKET PROBLEM */
+    #market-problem{
+        margin-top: 8em;
+        margin-bottom: 8em;
+        padding: 0 1.5em;
+    }
+    #alphateta{
+        width: 160px;
+    }
+    #market-problem br{
+        display: none;
+    }
+
+    /* OPEN SOURCE */
+    #open-source{
+        padding: 4em 2em;
+    }
+    .dev{
+        display: none;
+    }
+    #open-txt-btn h5 br{
+        display: inline;
+    }
+
+    /* OVERALL */
+    #overall-p{
+        padding: 0 2em;
+    }
+    #icon-container{
+        gap: 2em;
+        flex-wrap: wrap;
+    }
+    .icon{
+        width: 3em;
+    }
+
+    /* JOIN */
+    #join{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .justify-text{
+        max-width: 100%;
+    }
+
+    /* FOOTER */
+    footer{
+        flex-direction: column;
+        gap: 2em;
+    }
+    .table{
+        flex-direction: column;
+        gap: 0.5em;
+    }
+    #newsletter img{
+        width: 250px;
+    }
+    #newsletter p br{
+        display: none;
+    }
+}
+
+@media (max-width: 480px){
+    #app{
+        font-size: 36px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    header{
+        justify-content: center;
+    }
+    #odj-img{
+        width: 95%;
+    }
+    #market-problem{
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
+    #open-source{
+        padding: 2em 1em;
+    }
+    #icon-container{
+        gap: 1em;
+    }
+    .button-container{
+        flex-wrap: wrap;
+    }
+    .flex-start-container{
+        flex-wrap: wrap;
+    }
+}
