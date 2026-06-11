@@ -431,6 +431,17 @@ textarea{
     padding: 0 0 0 0.8em ;
 }
 
+#newsletter-button-container{
+    justify-content: stretch;
+    gap: 0.5em;
+    padding: 0;
+}
+
+#newsletter-button-container textarea{
+    flex: 1;
+    max-width: none;
+}
+
 
 
 
